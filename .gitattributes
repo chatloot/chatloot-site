@@ -1,0 +1,5 @@
+# Normalize all text files to LF in the repository, regardless of
+# what line endings they were created with locally. Prevents the
+# "LF will be replaced by CRLF" warning and keeps the repo consistent
+# whether edited on Windows, Mac, or Netlify's Linux build servers.
+* text=auto eol=lf
