@@ -8,7 +8,7 @@
     "description": "Halloween Puppy Loot Box 👻🐾\n\n★ Channel Points: Reward viewers with a loot box they can claim! It also works with subs/cheers/followers (you can select which you prefer)\n\n★ Chat Command: Alternatively, set up a chat command such as !halloween\n\n★ Custom Limits: You can set a cooldown of a certain amount of minutes for each way of claiming the loot box, and if you're using cheers you can set a minimum amount of bits\n\n★ Viewer Shoutouts: The viewer’s username appears in the animation to make it feel personalized\n\n★ Collection & Leaderboard: Viewers can keep track of the puppies they’ve collected so far or check the leaderboard! This works with customizable chat commands which trigger a message in the chat\n\n★ Rarities: Choose which puppies are common, rare or special\n\n★ Fully Personalized: Change the font, colors, puppy names, audio and other settings to perfectly match your stream's aesthetic\n\n★ Multilingual: All text can be edited, making the widget easy to customize for any language\n\n★ Easy Setup: Quick and simple installation through StreamElements. Works with OBS, Streamlabs, and any browser-source setup!\n\n",
     "thumbnail": "assets/twitch-blind-box-halloween-puppies/thumb.png",
     "videoUrl": "",
-    "gallery": { "folder": "assets/twitch-blind-box-halloween-puppies", "count": 12 },
+    "gallery": { "folder": "assets/twitch-blind-box-halloween-puppies", "count": 7 },
     "etsyUrl": "https://www.etsy.com/uk/listing/4577436044/",
     "tags": ["Twitch", "Blind Box", "Halloween", "Animated"]
   },
