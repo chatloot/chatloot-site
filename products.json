@@ -1,16 +1,16 @@
 [
   {
-    "id": "loot-drop-alert",
-    "title": "Loot Drop Alert Widget",
-    "category": "Alerts",
-    "price": "£8.50",
-    "blurb": "A chest bursts open and spills your sub/follow alert across the screen.",
-    "description": "PLACEHOLDER COPY — replace with real listing text.\n\nEvery new follow, sub, or donation triggers a treasure chest that bursts open and scatters the alert text and amount across the screen. Built for StreamElements, fully recolourable, with adjustable timing and sound.",
-    "thumbnail": "assets/loot-drop-alert/01.png",
+    "id": "twitch-blind-box-halloween-puppies",
+    "title": "Twitch Blind Box Halloween Puppies",
+    "category": ["Blind Boxes, Twitch"],
+    "price": "20.00",
+    "blurb": "Halloween Puppies Twitch Widget: Streamer Chat Command or Channel Points Reward",
+    "description": "Halloween Puppy Loot Box 👻🐾\n\n★ Channel Points: Reward viewers with a loot box they can claim! It also works with subs/cheers/followers (you can select which you prefer)\n\n★ Chat Command: Alternatively, set up a chat command such as !halloween\n\n★ Custom Limits: You can set a cooldown of a certain amount of minutes for each way of claiming the loot box, and if you're using cheers you can set a minimum amount of bits\n\n★ Viewer Shoutouts: The viewer’s username appears in the animation to make it feel personalized\n\n★ Collection & Leaderboard: Viewers can keep track of the puppies they’ve collected so far or check the leaderboard! This works with customizable chat commands which trigger a message in the chat\n\n★ Rarities: Choose which puppies are common, rare or special\n\n★ Fully Personalized: Change the font, colors, puppy names, audio and other settings to perfectly match your stream's aesthetic\n\n★ Multilingual: All text can be edited, making the widget easy to customize for any language\n\n★ Easy Setup: Quick and simple installation through StreamElements. Works with OBS, Streamlabs, and any browser-source setup!\n\n",
+    "thumbnail": "assets/twitch-blind-box-halloween-puppies/thumb.png",
     "videoUrl": "",
-    "gallery": { "folder": "assets/loot-drop-alert", "count": 4 },
-    "etsyUrl": "https://www.etsy.com/uk/shop/ChatLoot?utm_source=chatloot_site&utm_medium=referral&utm_campaign=catalog",
-    "tags": ["StreamElements", "Alert", "Animated"]
+    "gallery": { "folder": "assets/twitch-blind-box-halloween-puppies", "count": 12 },
+    "etsyUrl": "https://www.etsy.com/uk/listing/4577436044/",
+    "tags": ["Twitch", "Blind Box", "Halloween", "Animated"]
   },
   {
     "id": "chat-rewards-shop",

@@ -1,5 +1,5 @@
 (function () {
-  const GALLERY_EXTENSIONS = ['png', 'jpg', 'jpeg', 'webp', 'gif'];
+  const GALLERY_EXTENSIONS = ['png', 'jpg', 'jpeg', 'webp', 'gif', 'avif'];
 
   function isMp4(url) {
     return /\.(mp4|webm)$/i.test(url || '');
