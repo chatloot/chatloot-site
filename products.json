@@ -1,0 +1,41 @@
+[
+  {
+    "id": "loot-drop-alert",
+    "title": "Loot Drop Alert Widget",
+    "category": "Alerts",
+    "price": "£8.50",
+    "blurb": "A chest bursts open and spills your sub/follow alert across the screen.",
+    "description": "PLACEHOLDER COPY — replace with real listing text.\n\nEvery new follow, sub, or donation triggers a treasure chest that bursts open and scatters the alert text and amount across the screen. Built for StreamElements, fully recolourable, with adjustable timing and sound.",
+    "thumbnail": "assets/loot-drop-alert/01.png",
+    "videoUrl": "",
+    "gallery": { "folder": "assets/loot-drop-alert", "count": 4 },
+    "etsyUrl": "https://www.etsy.com/uk/shop/ChatLoot?utm_source=chatloot_site&utm_medium=referral&utm_campaign=catalog",
+    "tags": ["StreamElements", "Alert", "Animated"]
+  },
+  {
+    "id": "chat-rewards-shop",
+    "title": "Chat Rewards Shop Overlay",
+    "category": "Overlays",
+    "price": "£11.00",
+    "blurb": "A browsable in-stream shop where loyal chatters spend points on perks.",
+    "description": "PLACEHOLDER COPY — replace with real listing text.\n\nGive your channel-points economy somewhere to live on screen: a scrollable shop panel chatters can browse via command, with custom items, pricing, and purchase animations.",
+    "thumbnail": "assets/chat-rewards-shop/01.png",
+    "videoUrl": "",
+    "gallery": { "folder": "assets/chat-rewards-shop", "count": 5 },
+    "etsyUrl": "https://www.etsy.com/uk/shop/ChatLoot?utm_source=chatloot_site&utm_medium=referral&utm_campaign=catalog",
+    "tags": ["StreamElements", "Channel Points", "Interactive"]
+  },
+  {
+    "id": "gacha-unbox-animation",
+    "title": "Gacha Crate Unbox Animation",
+    "category": "Alerts",
+    "price": "£7.00",
+    "blurb": "A spinning capsule-machine reveal for raffle winners and giveaways.",
+    "description": "PLACEHOLDER COPY — replace with real listing text.\n\nA gacha-style capsule machine spins and drops a randomised prize reveal — ideal for giveaways, raffle winners, or just celebrating a raid. Five capsule colour variants included.",
+    "thumbnail": "assets/gacha-unbox-animation/01.png",
+    "videoUrl": "",
+    "gallery": { "folder": "assets/gacha-unbox-animation", "count": 3 },
+    "etsyUrl": "https://www.etsy.com/uk/shop/ChatLoot?utm_source=chatloot_site&utm_medium=referral&utm_campaign=catalog",
+    "tags": ["Giveaway", "Animated", "Gacha"]
+  }
+]
