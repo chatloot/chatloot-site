@@ -1,8 +1,21 @@
 (function () {
-  const GALLERY_EXTENSIONS = ['png', 'jpg', 'jpeg', 'webp', 'gif', 'avif'];
+  const GALLERY_EXTENSIONS = ['png', 'jpg', 'jpeg', 'webp', 'avif', 'gif'];
 
   function isMp4(url) {
     return /\.(mp4|webm)$/i.test(url || '');
+  }
+
+  // Paths from products.json (thumbnail, gallery.folder, videoUrl for
+  // self-hosted files) are written relative to the site root, e.g.
+  // "assets/foo/01.png". That's correct in the server-rendered HTML
+  // (the build script prefixes a "/"), but here in client.js we're
+  // running on pages nested under /products/, so an un-prefixed path
+  // resolves relative to the *current page* instead of the root. Force
+  // root-relative unless it's already absolute or a full URL.
+  function toRootPath(p) {
+    if (!p) return p;
+    if (/^(https?:)?\/\//i.test(p) || p.startsWith('/')) return p;
+    return `/${p}`;
   }
 
   function loadImageVariant(basePath) {
@@ -24,7 +37,7 @@
     if (!gallery) return [];
     const { folder, count } = gallery;
     const slots = Array.from({ length: count }, (_, i) => String(i + 1).padStart(2, '0'));
-    const results = await Promise.all(slots.map(slot => loadImageVariant(`${folder}/${slot}`)));
+    const results = await Promise.all(slots.map(slot => loadImageVariant(`${toRootPath(folder)}/${slot}`)));
     return results.filter(Boolean);
   }
 
@@ -37,14 +50,14 @@
     const items = [];
     if (galleryImages.length) {
       items.push({ type: 'image', src: galleryImages[0] });
-      if (product.videoUrl) items.push({ type: 'video', src: product.videoUrl });
+      if (product.videoUrl) items.push({ type: 'video', src: toRootPath(product.videoUrl) });
       for (let i = 1; i < galleryImages.length; i += 1) {
         items.push({ type: 'image', src: galleryImages[i] });
       }
     } else if (product.videoUrl) {
-      items.push({ type: 'video', src: product.videoUrl });
+      items.push({ type: 'video', src: toRootPath(product.videoUrl) });
     } else if (product.thumbnail) {
-      items.push({ type: 'image', src: product.thumbnail });
+      items.push({ type: 'image', src: toRootPath(product.thumbnail) });
     }
     return items;
   }
@@ -90,7 +103,7 @@
       if (multi) {
         thumbsEl.innerHTML = items.map((it, i) => {
           const isVideo = it.type === 'video';
-          const thumbSrc = isVideo ? (product.thumbnail || it.src) : it.src;
+          const thumbSrc = isVideo ? (toRootPath(product.thumbnail) || it.src) : it.src;
           const badge = isVideo ? `<span class="thumb-play" aria-hidden="true">&#9654;</span>` : '';
           return `<button class="gallery-thumb ${i === index ? 'active' : ''}" data-index="${i}" aria-label="${isVideo ? 'Preview video' : `Photo ${i + 1}`}"><img src="${thumbSrc}" alt="">${badge}</button>`;
         }).join('');
