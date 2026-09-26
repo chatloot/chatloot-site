@@ -4,7 +4,7 @@
     "title": "Twitch Blind Box Halloween Puppies",
     "category": ["Blind Boxes", "Twitch", "Halloween"],
     "price": "20.00",
-    "blurb": "Halloween Puppies Twitch Widget: Streamer Chat Command or Channel Points Reward",
+    "blurb": "Halloween Puppies Twitch Widget: Chat Command or Channel Points Reward",
     "description": "Halloween Puppy Loot Box 👻🐾\n\n★ Channel Points: Reward viewers with a loot box they can claim! It also works with subs/cheers/followers (you can select which you prefer)\n★ Chat Command: Alternatively, set up a chat command such as !halloween\n★ Custom Limits: You can set a cooldown of a certain amount of minutes for each way of claiming the loot box, and if you're using cheers you can set a minimum amount of bits\n★ Viewer Shoutouts: The viewer’s username appears in the animation to make it feel personalized\n★ Collection & Leaderboard: Viewers can keep track of the puppies they’ve collected so far or check the leaderboard! This works with customizable chat commands which trigger a message in the chat\n★ Rarities: Choose which puppies are common, rare or special\n★ Fully Personalized: Change the font, colors, puppy names, audio and other settings to perfectly match your stream's aesthetic\n★ Multilingual: All text can be edited, making the widget easy to customize for any language\n★ Easy Setup: Quick and simple installation through StreamElements. Works with OBS, Streamlabs, and any browser-source setup!\n",
     "thumbnail": "assets/twitch-blind-box-halloween-puppies/01.png",
     "videoUrl": "assets/twitch-blind-box-halloween-puppies/vid_v1.mp4",
@@ -17,7 +17,7 @@
     "title": "Twitch Blind Box Trick or Treat",
     "category": ["Blind Boxes", "Twitch", "Halloween"],
     "price": "20.00",
-    "blurb": "Halloween Trick or Treat Twitch Widget: Streamer Chat Command or Channel Points Reward",
+    "blurb": "Halloween Trick or Treat Twitch Widget: Chat Command or Channel Points Reward",
     "description": "🎃 Trick or Treat Twitch Widget! 👻\n\n★ Chat Command: Viewers can type !tot (or any word you choose) to unlock & collect tricks or treats 🍬\n★ Channel Points Ready: Perfect as a channel point reward to boost interaction 🧡\n★ Variety: Never the same trick or treat twice in a row ✔️\n★ Viewer Shoutouts: The viewer’s username pops up in the animation ✨\n★ Fully Customizable: Adjust font & colors to match your Halloween theme 🕷️\n★ Collect & Compete: Viewers can use chat commands to track which tricks & treats they’ve got, and check the leaderboard of most treats collected 🎃🏆\n★ Multilingual Support: All text can be edited into any language 🌐\n★ Easy Setup: Quick one-click install through StreamElements—compatible with OBS, Streamlabs, and any browser source ⚡\n",
     "thumbnail": "assets/twitch-blind-box-trick-or-treat/01.webp",
     "videoUrl": "assets/twitch-blind-box-trick-or-treat/01.mp4",
@@ -62,6 +62,19 @@
     "videoUrl": "assets/twitch-welcomer-widget/01.mp4",
     "gallery": { "folder": "assets/twitch-welcomer-widget", "count": 10 },
     "etsyUrl": "https://www.etsy.com/uk/listing/4534103618/",
-    "tags": ["Twitch", "Welome", "Widgets"]
+    "tags": ["Twitch", "Welcome", "Widgets"]
+  },
+  {
+    "id": "boba-tea-widget",
+    "title": "Twitch Boba Tea Collector",
+    "category": ["Blind Boxes", "Twitch"],
+    "price": "20.00",
+    "blurb": "Cute Boba Tea Widget: Chat Command or Channel Points Reward",
+    "description": "✨ Super Cute Boba Twitch Alert Widget! ✨\n\nFeatures:\n★ Cute chat command: type !boba (or your own word!) for an adorable surprise\n★ Use it as a channel point redemption or StreamElements shop reward too 💝\n★ Random boba animations that won’t repeat one after the other 🎉\n★ Your viewer’s username pops up to make them feel extra special 🌟\n★ Comes with a sound effect or you can choose no sound, or add your own 🎶\n★ Control viewer cooldown ⏳\n★ Works with OBS, Streamlabs, or any browser source-friendly streaming software 🖥️✨\n★ Instant digital download with an easy step-by-step setup guide included 🙌\n",
+    "thumbnail": "assets/boba-tea-widget/01.avif",
+    "videoUrl": "assets/boba-tea-widget/01.mp4",
+    "gallery": { "folder": "assets/boba-tea-widget", "count": 10 },
+    "etsyUrl": "https://www.etsy.com/uk/listing/4331661816/",
+    "tags": ["Twitch", "Boba Tea", "Widgets"]
   }
 ]
