@@ -195,7 +195,7 @@ function buildProductPage(product) {
       <p class="price-note">Check Etsy for current price and offers. Price on Etsy will be in your local currency.</p>
     </div>
   </div>
-  <a class="back-link" href="/">&larr; Back to all overlays</a>
+  <a class="back-link" href="/">&larr; Back to all products</a>
 </main>
 <script type="application/json" id="product-data">${JSON.stringify(product)}</script>
 `;
