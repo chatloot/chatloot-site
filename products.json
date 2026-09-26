@@ -13,17 +13,17 @@
     "tags": ["Twitch", "Blind Box", "Halloween", "Animated"]
   },
   {
-    "id": "chat-rewards-shop",
-    "title": "Chat Rewards Shop Overlay",
-    "category": "Overlays",
-    "price": "£11.00",
-    "blurb": "A browsable in-stream shop where loyal chatters spend points on perks.",
-    "description": "PLACEHOLDER COPY — replace with real listing text.\n\nGive your channel-points economy somewhere to live on screen: a scrollable shop panel chatters can browse via command, with custom items, pricing, and purchase animations.",
-    "thumbnail": "assets/chat-rewards-shop/01.png",
-    "videoUrl": "",
-    "gallery": { "folder": "assets/chat-rewards-shop", "count": 5 },
-    "etsyUrl": "https://www.etsy.com/uk/shop/ChatLoot?utm_source=chatloot_site&utm_medium=referral&utm_campaign=catalog",
-    "tags": ["StreamElements", "Channel Points", "Interactive"]
+    "id": "twitch-blind-box-trick-or-treat",
+    "title": "Twitch Blind Box Trick or Treat",
+    "category": ["Blind Boxes", "Twitch"],
+    "price": "20.00",
+    "blurb": "Halloween Puppies Twitch Widget: Streamer Chat Command or Channel Points Reward",
+    "description": "🎃 Trick or Treat Twitch Widget! 👻\n\n★ Chat Command: Viewers can type !tot (or any word you choose) to unlock & collect tricks or treats 🍬\n\n★ Channel Points Ready: Perfect as a channel point reward to boost interaction 🧡\n\n★ Variety: Never the same trick or treat twice in a row ✔️\n\n★ Viewer Shoutouts: The viewer’s username pops up in the animation ✨\n\n★ Fully Customizable: Adjust font & colors to match your Halloween theme 🕷️\n\n★ Collect & Compete: Viewers can use chat commands to track which tricks & treats they’ve got, and check the leaderboard of most treats collected 🎃🏆\n\n★ Multilingual Support: All text can be edited into any language 🌐\n\n★ Easy Setup: Quick one-click install through StreamElements—compatible with OBS, Streamlabs, and any browser source ⚡\n\n",
+    "thumbnail": "assets/twitch-blind-box-trick-or-treat/01.webp",
+    "videoUrl": "assets/twitch-blind-box-trick-or-treat/01.mp4",
+    "gallery": { "folder": "assets/twitch-blind-box-trick-or-treat", "count": 10 },
+    "etsyUrl": "https://www.etsy.com/uk/listing/4366049363/",
+    "tags": ["Twitch", "Blind Box", "Halloween", "Animated"]
   },
   {
     "id": "gacha-unbox-animation",
