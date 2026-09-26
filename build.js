@@ -3,7 +3,7 @@ const path = require('path');
 
 const SITE_URL = 'https://chatloot.co';
 const SITE_NAME = 'ChatLoot';
-const SITE_TAGLINE = 'Loot-Themed Overlays & Alerts for Twitch';
+const SITE_TAGLINE = 'Assets for Twitch Streamers - Available for Instant Download through Etsy';
 
 const ROOT = __dirname;
 const DIST = path.join(ROOT, 'dist');
@@ -72,7 +72,7 @@ ${extraHead}
 ${bodyHtml}
 <footer class="site-footer">
   <div class="wrap">
-    <p>${SITE_NAME} &middot; Twitch overlays and alerts, delivered instantly via Etsy.</p>
+    <p>${SITE_NAME} &middot; Twitch overlays and assets, delivered instantly via Etsy.</p>
   </div>
 </footer>
 <script src="/client.js"></script>
@@ -108,7 +108,7 @@ function cardHtml(product) {
           <span class="card-price">${escapeHtml(product.price)}</span>
           <span class="card-cta">${product.videoUrl ? 'Preview' : (product.gallery ? 'Photos' : 'Details')}</span>
         </div>
-        <p class="price-note">Price may be lower on Etsy</p>
+        <p class="price-note">See Etsy price for your local currency and discounts</p>
       </div>
     </a>
   `;
@@ -123,9 +123,9 @@ function buildHomepage() {
   const bodyHtml = `
 <section class="hero">
   <div class="wrap hero-inner">
-    <p class="eyebrow">Twitch overlays &amp; alerts</p>
-    <h1>Loot up your stream<br>before you check out.</h1>
-    <p class="hero-sub">Every listing here has a real preview &mdash; see it running before it's anywhere near your OBS setup. When you're ready, one tap takes you to the Etsy listing to buy.</p>
+    <p class="eyebrow">Twitch assets &amp; overlays</p>
+    <h1>Level-Up Your Stream</h1>
+    <p class="hero-sub">Explore a variety of stream-ready widgets, browser-source overlays and more; designed to add charm and interactivity to your channel. From soft and cozy visuals to more vibrant or dynamic designs, everything is built to work seamlessly with OBS, Streamlabs, and other browser-source setups.</p>
   </div>
 </section>
 <nav class="filter-bar" aria-label="Filter by category">
@@ -140,7 +140,7 @@ function buildHomepage() {
 
   return pageShell({
     title: `${SITE_NAME} — ${SITE_TAGLINE}`,
-    description: 'Loot-themed Twitch overlays, alerts, and widgets with real video previews — browse on ChatLoot, buy on Etsy.',
+    description: 'Browse our range of Twitch streamer assets and overlays — all available for instant download on Etsy in your local currency.',
     canonicalPath: '/',
     ogImage: products[0] && products[0].thumbnail,
     bodyHtml,
@@ -190,7 +190,7 @@ function buildProductPage(product) {
         <span>Get it on Etsy</span>
         <span class="btn-price">${escapeHtml(product.price)}</span>
       </a>
-      <p class="price-note">Price may be lower on Etsy — check the listing for current pricing.</p>
+      <p class="price-note">Check Etsy for current price and offers. Price on Etsy will be in your local currency.</p>
     </div>
   </div>
   <a class="back-link" href="/">&larr; Back to all overlays</a>
