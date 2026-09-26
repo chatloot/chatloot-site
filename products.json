@@ -2,7 +2,7 @@
   {
     "id": "twitch-blind-box-halloween-puppies",
     "title": "Twitch Blind Box Halloween Puppies",
-    "category": ["Blind Boxes", "Twitch"],
+    "category": ["Blind Boxes", "Twitch", "Halloween"],
     "price": "20.00",
     "blurb": "Halloween Puppies Twitch Widget: Streamer Chat Command or Channel Points Reward",
     "description": "Halloween Puppy Loot Box 👻🐾\n\n★ Channel Points: Reward viewers with a loot box they can claim! It also works with subs/cheers/followers (you can select which you prefer)\n★ Chat Command: Alternatively, set up a chat command such as !halloween\n★ Custom Limits: You can set a cooldown of a certain amount of minutes for each way of claiming the loot box, and if you're using cheers you can set a minimum amount of bits\n★ Viewer Shoutouts: The viewer’s username appears in the animation to make it feel personalized\n★ Collection & Leaderboard: Viewers can keep track of the puppies they’ve collected so far or check the leaderboard! This works with customizable chat commands which trigger a message in the chat\n★ Rarities: Choose which puppies are common, rare or special\n★ Fully Personalized: Change the font, colors, puppy names, audio and other settings to perfectly match your stream's aesthetic\n★ Multilingual: All text can be edited, making the widget easy to customize for any language\n★ Easy Setup: Quick and simple installation through StreamElements. Works with OBS, Streamlabs, and any browser-source setup!\n",
@@ -15,7 +15,7 @@
   {
     "id": "twitch-blind-box-trick-or-treat",
     "title": "Twitch Blind Box Trick or Treat",
-    "category": ["Blind Boxes", "Twitch"],
+    "category": ["Blind Boxes", "Twitch", "Halloween"],
     "price": "20.00",
     "blurb": "Halloween Trick or Treat Twitch Widget: Streamer Chat Command or Channel Points Reward",
     "description": "🎃 Trick or Treat Twitch Widget! 👻\n\n★ Chat Command: Viewers can type !tot (or any word you choose) to unlock & collect tricks or treats 🍬\n★ Channel Points Ready: Perfect as a channel point reward to boost interaction 🧡\n★ Variety: Never the same trick or treat twice in a row ✔️\n★ Viewer Shoutouts: The viewer’s username pops up in the animation ✨\n★ Fully Customizable: Adjust font & colors to match your Halloween theme 🕷️\n★ Collect & Compete: Viewers can use chat commands to track which tricks & treats they’ve got, and check the leaderboard of most treats collected 🎃🏆\n★ Multilingual Support: All text can be edited into any language 🌐\n★ Easy Setup: Quick one-click install through StreamElements—compatible with OBS, Streamlabs, and any browser source ⚡\n",
@@ -28,7 +28,7 @@
   {
     "id": "halloween-fairy-lights",
     "title": "Halloween Fairy Lights",
-    "category": ["Overlays", "Twitch"],
+    "category": ["Overlays", "Twitch", "Halloween"],
     "price": "6.00",
     "blurb": "Halloween Fairy Lights Overlay: Stream Decoration for Twitch, Kick, Youtube",
     "description": "Halloween String Lights Overlay 🎃\n\n★ Pre-Made Options: Includes 3x animated and 3x static overlays\n★ Customize: Create your own overlay using the 33 individual animations and images\n★ Quick Set-Up: Load into OBS, Streamlabs or your preferred streaming software\n★ Compatibility: Works with Twitch, Kick and Youtube\n",
