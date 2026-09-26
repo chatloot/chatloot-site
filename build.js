@@ -174,7 +174,9 @@ function buildProductPage(product) {
   <div class="product-page">
     <div class="product-media">
       <div class="media-frame" id="mediaFrame">
-        ${product.thumbnail ? `<img src="/${product.thumbnail}" alt="${escapeHtml(product.title)}">` : ''}
+        <div class="media-content" id="mediaContent">
+          ${product.thumbnail ? `<img src="/${product.thumbnail}" alt="${escapeHtml(product.title)}">` : ''}
+        </div>
         <button class="gallery-nav gallery-prev" id="galleryPrev" aria-label="Previous item" hidden>&#8249;</button>
         <button class="gallery-nav gallery-next" id="galleryNext" aria-label="Next item" hidden>&#8250;</button>
         <span class="gallery-count" id="galleryCount" hidden></span>

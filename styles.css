@@ -342,6 +342,11 @@ a { color: inherit; }
   background: #0E0A18;
 }
 
+.media-content {
+  width: 100%;
+  height: 100%;
+}
+
 .media-frame img,
 .media-frame video,
 .media-frame iframe {

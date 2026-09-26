@@ -68,7 +68,7 @@
     if (!dataEl) return;
     const product = JSON.parse(dataEl.textContent);
 
-    const frame = document.getElementById('mediaFrame');
+    const frame = document.getElementById('mediaContent');
     const prevBtn = document.getElementById('galleryPrev');
     const nextBtn = document.getElementById('galleryNext');
     const countEl = document.getElementById('galleryCount');
