@@ -34,7 +34,7 @@
     "description": "Halloween String Lights Overlay 🎃\n\n★ Pre-Made Options: Includes 3x animated and 3x static overlays\n★ Customize: Create your own overlay using the 33 individual animations and images\n★ Quick Set-Up: Load into OBS, Streamlabs or your preferred streaming software\n★ Compatibility: Works with Twitch, Kick and Youtube\n",
     "thumbnail": "assets/halloween-fairy-lights/01.webp",
     "videoUrl": "assets/halloween-fairy-lights/01.mp4",
-    "gallery": { "folder": "assets/halloween-fairy-lights", "count": 5 },
+    "gallery": { "folder": "assets/halloween-fairy-lights", "count": 10 },
     "etsyUrl": "https://www.etsy.com/uk/listing/4581971298/",
     "tags": ["Twitch", "Overlays", "Halloween", "Animated"]
   },
@@ -47,8 +47,21 @@
     "description": "✨ Custom Spotify Music Widget for Twitch ✨\n\nBring your stream to life with a fully customizable Spotify widget designed to showcase your current music 💜\nFeatures:\n★ Display your currently playing Spotify track directly on your stream 🎵\n★ Fully customize the text, colors, fonts, layout, icons and overall appearance to match your stream aesthetic 🎨\n★ Compatible with OBS, Streamlabs, and other streaming software that supports browser sources 🖥️\n★ Easy-to-follow setup instructions are included so you can get your widget up and running quickly 🙌\n",
     "thumbnail": "assets/twitch-music-widget/01.avif",
     "videoUrl": "assets/twitch-music-widget/01.mp4",
-    "gallery": { "folder": "assets/twitch-music-widget", "count": 5 },
+    "gallery": { "folder": "assets/twitch-music-widget", "count": 10 },
     "etsyUrl": "https://www.etsy.com/uk/listing/4553083427/",
     "tags": ["Twitch", "Music", "Widgets", "Spotify"]
+  },
+  {
+    "id": "twitch-welcomer-widget",
+    "title": "Twitch Welcomer Widget",
+    "category": ["Widgets", "Twitch"],
+    "price": "14.00",
+    "blurb": "Custom About Me Welcomer Twitch Widget: Animated Streamer Asset",
+    "description": "✨ Custom Chat Welcomer Widget for Twitch ✨\n\nCreate a warm first impression with this fully customizable Welcomer Widget!\nFeatures:\n★ Welcome chatters with a personalized greeting, via raid / new follow / chat command / timer 🌟\n★ Fully customize all text and cooldown settings ✍️\n★ Personalize colors, fonts, and the overall design to match your stream aesthetic 🎨\n★ Multi-language support for international communities 🌍\n★ Encourage viewer engagement and help build a friendly, welcoming community 🤗\n★ Compatible with OBS, Streamlabs, and any streaming software that supports browser sources 🖥️\n★ Instant digital download with an easy step-by-step setup guide included 🙌\n",
+    "thumbnail": "assets/twitch-welcomer-widget/01.avif",
+    "videoUrl": "assets/twitch-welcomer-widget/01.mp4",
+    "gallery": { "folder": "assets/twitch-welcomer-widget", "count": 10 },
+    "etsyUrl": "https://www.etsy.com/uk/listing/4534103618/",
+    "tags": ["Twitch", "Welome", "Widgets"]
   }
 ]
