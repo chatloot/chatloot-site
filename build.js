@@ -42,6 +42,8 @@ function pageShell({ title, description, canonicalPath, ogImage, bodyHtml, extra
 <title>${escapeHtml(title)}</title>
 <meta name="description" content="${escapeHtml(description)}">
 <link rel="canonical" href="${canonicalUrl}">
+<link rel="icon" href="/favicon-32.png" type="image/png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <meta property="og:type" content="website">
 <meta property="og:title" content="${escapeHtml(title)}">
 <meta property="og:description" content="${escapeHtml(description)}">
@@ -59,10 +61,7 @@ ${extraHead}
   <div class="wrap header-inner">
     <a href="/" class="logo">
       <span class="logo-mark" aria-hidden="true">
-        <svg viewBox="0 0 32 32" width="26" height="26">
-          <circle cx="16" cy="16" r="13" fill="none" stroke-width="3" class="logo-a" style="stroke: var(--accent-gold)"/>
-          <path d="M10 17 L14 21 L22 12" fill="none" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="logo-b" style="stroke: var(--accent-violet)"/>
-        </svg>
+        <img src="/favicon-512.png" width="26" height="26" alt="">
       </span>
       ${SITE_NAME}
     </a>
@@ -195,7 +194,7 @@ function buildProductPage(product) {
       <p class="price-note">Check Etsy for current price and offers. Price on Etsy will be in your local currency.</p>
     </div>
   </div>
-  <a class="back-link" href="/">&larr; Back to all products</a>
+  <a class="back-link" href="/">&larr; Back to all overlays</a>
 </main>
 <script type="application/json" id="product-data">${JSON.stringify(product)}</script>
 `;
@@ -240,6 +239,9 @@ fs.writeFileSync(path.join(DIST, 'robots.txt'), buildRobots());
 
 fs.copyFileSync(path.join(ROOT, 'styles.css'), path.join(DIST, 'styles.css'));
 fs.copyFileSync(path.join(ROOT, 'client.js'), path.join(DIST, 'client.js'));
+fs.copyFileSync(path.join(ROOT, 'favicon-32.png'), path.join(DIST, 'favicon-32.png'));
+fs.copyFileSync(path.join(ROOT, 'favicon-512.png'), path.join(DIST, 'favicon-512.png'));
+fs.copyFileSync(path.join(ROOT, 'apple-touch-icon.png'), path.join(DIST, 'apple-touch-icon.png'));
 
 // Copy the assets folder if it exists (product images/videos)
 const assetsSrc = path.join(ROOT, 'assets');
