@@ -39,6 +39,19 @@
     "tags": ["Twitch", "Overlays", "Halloween", "Animated"]
   },
   {
+    "id": "halloween-room-blind-box",
+    "title": "Twitch Halloween Room",
+    "category": ["Twitch", "Blind Boxes", "Halloween", "Chat Assets"],
+    "price": "20.00",
+    "blurb": "Halloween Room Blind Box Twitch Widget: Animated Streamer Asset",
+    "description": "🎃 Trick or Treat 3D Halloween Widget! 👻\n\n★ 3D Halloween Scene: Viewers lootboxes open inside a cozy Halloween bedroom filled with spooky decorations🕯️🍬\n★ Chat Command: Viewers can type !tot (or any custom word you choose) to unlock and collect unique tricks or treats 🎃\n★ Channel Points Ready: Perfect as a channel point reward to boost chat engagement 🧡\n★ Never Repeats: No duplicate tricks or treats in a row – every surprise feels fresh ✔️\n★ Personalized Shoutouts: The viewer’s username pops up inside the 3D scene for a magical interactive touch ✨\n★ Customizable Everything: Change fonts, colors, and scene lighting to match your Halloween stream theme 🕷️\n★ Collect & Compete: Viewers can check their collection and climb the leaderboard for most treats collected 🏆\n★ Multilingual Friendly: All text can be edited into any language 🌐\n★ Easy Setup: Simple one-click install through StreamElements – works with OBS, Streamlabs, and any browser source ⚡\n",
+    "thumbnail": "01.avif",
+    "videoUrl": "01.mp4",
+    "gallery": { "count": 10 },
+    "etsyUrl": "https://www.etsy.com/uk/listing/4378617338/",
+    "tags": ["Twitch", "Blind Box", "Halloween"]
+  },
+  {
     "id": "music-widget",
     "title": "Twitch Music Widget",
     "category": ["Widgets", "Twitch"],
@@ -141,18 +154,5 @@
     "gallery": { "count": 10 },
     "etsyUrl": "https://www.etsy.com/uk/listing/4403849952/",
     "tags": ["Twitch", "Blind Box", "Xmas", "Penguins", "Kawaii"]
-  },
-  {
-    "id": "halloween-room-blind-box",
-    "title": "Twitch Halloween Room",
-    "category": ["Twitch", "Blind Boxes", "Halloween"],
-    "price": "20.00",
-    "blurb": "Halloween Room Blind Box Twitch Widget: Animated Streamer Asset",
-    "description": "🎃 Trick or Treat 3D Halloween Widget! 👻\n\n★ 3D Halloween Scene: Viewers lootboxes open inside a cozy Halloween bedroom filled with spooky decorations🕯️🍬\n★ Chat Command: Viewers can type !tot (or any custom word you choose) to unlock and collect unique tricks or treats 🎃\n★ Channel Points Ready: Perfect as a channel point reward to boost chat engagement 🧡\n★ Never Repeats: No duplicate tricks or treats in a row – every surprise feels fresh ✔️\n★ Personalized Shoutouts: The viewer’s username pops up inside the 3D scene for a magical interactive touch ✨\n★ Customizable Everything: Change fonts, colors, and scene lighting to match your Halloween stream theme 🕷️\n★ Collect & Compete: Viewers can check their collection and climb the leaderboard for most treats collected 🏆\n★ Multilingual Friendly: All text can be edited into any language 🌐\n★ Easy Setup: Simple one-click install through StreamElements – works with OBS, Streamlabs, and any browser source ⚡\n",
-    "thumbnail": "01.avif",
-    "videoUrl": "01.mp4",
-    "gallery": { "count": 10 },
-    "etsyUrl": "https://www.etsy.com/uk/listing/4378617338/",
-    "tags": ["Twitch", "Blind Box", "Halloween"]
   }
 ]
