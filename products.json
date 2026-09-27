@@ -115,5 +115,18 @@
     "gallery": { "count": 10 },
     "etsyUrl": "https://www.etsy.com/uk/listing/4497273327/",
     "tags": ["Twitch", "Blind Box", "Pandas", "Widgets"]
+  },
+  {
+    "id": "thanksgiving",
+    "title": "Twitch Thanksgiving Chat Interaction",
+    "category": ["Twitch", "Chat Assets"],
+    "price": "12.00",
+    "blurb": "Thanksgiving Twitch Widget: Interactive Stream Chat Asset",
+    "description": "🦃 Thanksgiving Twitch Widget 🦃\n\n★ Chat Command: Viewers can type !thanks (or any custom keyword) to receive a thanksgiving-themed message\n★ Channel Points: Perfect as a channel point redemption\n★ Message Variety: Over 20 unique thanksgiving messages, celebrating gratitude as well as fun messages involving interactions between viewers\n★ Personalized: Each message includes the viewer’s username, making every message feel heartfelt and personal\n★ Custom Colors: Choose any text box colour to match your theme 🎨\n★ Easy Setup Guide: Quick one-click StreamElements install — fully compatible with OBS, Streamlabs, or browser-source streaming software ⚡\n",
+    "thumbnail": "01.webp",
+    "videoUrl": "01.mp4",
+    "gallery": { "count": 5 },
+    "etsyUrl": "https://www.etsy.com/uk/listing/4406790698/",
+    "tags": ["Twitch", "Thanksgiving", "Chat Interaction", "Widgets"]
   }
 ]
