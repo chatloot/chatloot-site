@@ -76,5 +76,18 @@
     "gallery": { "folder": "assets/boba-tea-widget", "count": 10 },
     "etsyUrl": "https://www.etsy.com/uk/listing/4331661816/",
     "tags": ["Twitch", "Boba Tea", "Widgets"]
+  },
+  {
+    "id": "froggie-loot-box",
+    "title": "Twitch Froggie Blind Box",
+    "category": ["Blind Boxes", "Twitch"],
+    "price": "20.00",
+    "blurb": "Animated Froggie Loot Box Twitch Widget: Streamer Channel Points Reward",
+    "description": "🐸 Froggie Loot Box Twitch Widget! 🐸\n\n★ Chat Command: Viewers can type !froggie (or any custom keyword) to reveal a surprise froggie friend 🌟\n★ Channel Point Redemption: Easily set it up as a channel points reward for extra engagement 💎\n★ Froggie Variety: Random every time, with no repeats back-to-back 🐸✨\n★ Personalized Shout-Outs: Viewer’s username is displayed for that fun, personal touch 🎉\n★ Customizable Look: Choose your own font and gradient colors to match your stream’s vibe 🎨\n★ Collection & Leaderboard: Viewers can track their frogs, reset collections, and compete on the leaderboard with simple chat commands 🏆\n★ All Languages Supported: Edit the display text to any language you like 🌍\n★ Quick Setup Guide: One-click StreamElements install—works with OBS, Streamlabs, and any browser-source streaming software ⚡\n",
+    "thumbnail": "assets/froggie-loot-box/01.webp",
+    "videoUrl": "assets/froggie-loot-box/01.mp4",
+    "gallery": { "folder": "assets/froggie-loot-box", "count": 10 },
+    "etsyUrl": "https://www.etsy.com/uk/listing/4363694835/",
+    "tags": ["Twitch", "Frogs", "Blind Box", "Widgets"]
   }
 ]
