@@ -32,6 +32,17 @@ function escapeHtml(str) {
     .replace(/"/g, '&quot;');
 }
 
+// A bare filename ("01.webp") resolves to assets/<product-id>/01.webp.
+// A value that's already a full path (starts with "assets/" or "/") or a
+// full URL (http/https, e.g. a YouTube embed) is left untouched.
+function resolveAssetPath(product, value) {
+  if (!value) return value;
+  if (/^(https?:)?\/\//i.test(value) || value.startsWith('/') || value.startsWith('assets/')) {
+    return value;
+  }
+  return `assets/${product.id}/${value}`;
+}
+
 function pageShell({ title, description, canonicalPath, ogImage, bodyHtml, extraHead = '' }) {
   const canonicalUrl = `${SITE_URL}${canonicalPath}`;
   return `<!DOCTYPE html>
@@ -82,11 +93,13 @@ ${bodyHtml}
 
 function cardHtml(product) {
   const cats = getCategories(product);
-  const hasThumb = !!product.thumbnail;
-  const hoverVideo = (product.videoUrl && /\.(mp4|webm)$/i.test(product.videoUrl))
-    ? `<video class="card-hover-video" data-src="/${product.videoUrl}" muted loop playsinline preload="none"></video>`
+  const thumbnail = resolveAssetPath(product, product.thumbnail);
+  const videoUrl = resolveAssetPath(product, product.videoUrl);
+  const hasThumb = !!thumbnail;
+  const hoverVideo = (videoUrl && /\.(mp4|webm)$/i.test(videoUrl))
+    ? `<video class="card-hover-video" data-src="/${videoUrl}" muted loop playsinline preload="none"></video>`
     : '';
-  const playPill = product.videoUrl
+  const playPill = videoUrl
     ? `<span class="play-pill"><span class="dot"></span>Watch preview</span>`
     : (product.gallery ? `<span class="play-pill"><span class="dot"></span>View photos</span>` : '');
 
@@ -94,7 +107,7 @@ function cardHtml(product) {
     <a class="card" href="/products/${product.id}.html" data-categories="${cats.join('|')}">
       <div class="card-media">
         ${hasThumb
-          ? `<img src="/${product.thumbnail}" alt="${escapeHtml(product.title)}" loading="lazy">`
+          ? `<img src="/${thumbnail}" alt="${escapeHtml(product.title)}" loading="lazy">`
           : `<div class="no-thumb">${escapeHtml(product.title.slice(0, 1))}</div>`}
         ${hoverVideo}
         ${playPill}
@@ -105,7 +118,7 @@ function cardHtml(product) {
         <p class="card-blurb">${escapeHtml(product.blurb)}</p>
         <div class="card-footer">
           <span class="card-price">${escapeHtml(product.price)}</span>
-          <span class="card-cta">${product.videoUrl ? 'Preview' : (product.gallery ? 'Photos' : 'Details')}</span>
+          <span class="card-cta">${videoUrl ? 'Preview' : (product.gallery ? 'Photos' : 'Details')}</span>
         </div>
         <p class="price-note">See Etsy price for your local currency and discounts</p>
       </div>
@@ -141,7 +154,7 @@ function buildHomepage() {
     title: `${SITE_NAME} — ${SITE_TAGLINE}`,
     description: 'Browse our range of Twitch streamer assets and overlays — all available for instant download on Etsy in your local currency.',
     canonicalPath: '/',
-    ogImage: products[0] && products[0].thumbnail,
+    ogImage: products[0] && resolveAssetPath(products[0], products[0].thumbnail),
     bodyHtml,
   });
 }
@@ -149,13 +162,14 @@ function buildHomepage() {
 function buildProductPage(product) {
   const { amount, currency } = parsePrice(product.price);
   const cats = getCategories(product);
+  const thumbnail = resolveAssetPath(product, product.thumbnail);
 
   const schema = {
     '@context': 'https://schema.org/',
     '@type': 'Product',
     name: product.title,
     description: product.description || product.blurb,
-    image: product.thumbnail ? `${SITE_URL}/${product.thumbnail}` : undefined,
+    image: thumbnail ? `${SITE_URL}/${thumbnail}` : undefined,
     brand: { '@type': 'Brand', name: SITE_NAME },
     offers: {
       '@type': 'Offer',
@@ -174,7 +188,7 @@ function buildProductPage(product) {
     <div class="product-media">
       <div class="media-frame" id="mediaFrame">
         <div class="media-content" id="mediaContent">
-          ${product.thumbnail ? `<img src="/${product.thumbnail}" alt="${escapeHtml(product.title)}">` : ''}
+          ${thumbnail ? `<img src="/${thumbnail}" alt="${escapeHtml(product.title)}">` : ''}
         </div>
         <button class="gallery-nav gallery-prev" id="galleryPrev" aria-label="Previous item" hidden>&#8249;</button>
         <button class="gallery-nav gallery-next" id="galleryNext" aria-label="Next item" hidden>&#8250;</button>
@@ -203,7 +217,7 @@ function buildProductPage(product) {
     title: `${product.title} — ${SITE_NAME}`,
     description: product.blurb,
     canonicalPath: `/products/${product.id}.html`,
-    ogImage: product.thumbnail,
+    ogImage: thumbnail,
     bodyHtml,
     extraHead,
   });
@@ -232,6 +246,10 @@ fs.mkdirSync(path.join(DIST, 'products'), { recursive: true });
 
 fs.writeFileSync(path.join(DIST, 'index.html'), buildHomepage());
 products.forEach(product => {
+  const resolvedThumb = resolveAssetPath(product, product.thumbnail);
+  if (resolvedThumb && /\.avif$/i.test(resolvedThumb)) {
+    console.warn(`⚠ ${product.id}: thumbnail is .avif — some platforms (Discord, Twitter/X) may fail to render it in link previews. Consider using .jpg, .png, or .webp for "thumbnail" specifically (gallery images are fine as .avif).`);
+  }
   fs.writeFileSync(path.join(DIST, 'products', `${product.id}.html`), buildProductPage(product));
 });
 fs.writeFileSync(path.join(DIST, 'sitemap.xml'), buildSitemap());

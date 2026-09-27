@@ -18,6 +18,16 @@
     return `/${p}`;
   }
 
+  // A bare filename ("01.webp") resolves to assets/<product-id>/01.webp,
+  // matching the same rule build.js applies server-side.
+  function resolveAssetPath(product, value) {
+    if (!value) return value;
+    if (/^(https?:)?\/\//i.test(value) || value.startsWith('/') || value.startsWith('assets/')) {
+      return value;
+    }
+    return `assets/${product.id}/${value}`;
+  }
+
   function loadImageVariant(basePath) {
     return new Promise((resolve) => {
       let i = 0;
@@ -33,9 +43,13 @@
     });
   }
 
-  async function resolveGallery(gallery) {
+  async function resolveGallery(product) {
+    const gallery = product.gallery;
     if (!gallery) return [];
-    const { folder, count } = gallery;
+    const folder = gallery.folder
+      ? resolveAssetPath(product, gallery.folder)
+      : `assets/${product.id}`;
+    const count = gallery.count;
     const slots = Array.from({ length: count }, (_, i) => String(i + 1).padStart(2, '0'));
     const results = await Promise.all(slots.map(slot => loadImageVariant(`${toRootPath(folder)}/${slot}`)));
     return results.filter(Boolean);
@@ -50,14 +64,14 @@
     const items = [];
     if (galleryImages.length) {
       items.push({ type: 'image', src: galleryImages[0] });
-      if (product.videoUrl) items.push({ type: 'video', src: toRootPath(product.videoUrl) });
+      if (product.videoUrl) items.push({ type: 'video', src: toRootPath(resolveAssetPath(product, product.videoUrl)) });
       for (let i = 1; i < galleryImages.length; i += 1) {
         items.push({ type: 'image', src: galleryImages[i] });
       }
     } else if (product.videoUrl) {
-      items.push({ type: 'video', src: toRootPath(product.videoUrl) });
+      items.push({ type: 'video', src: toRootPath(resolveAssetPath(product, product.videoUrl)) });
     } else if (product.thumbnail) {
-      items.push({ type: 'image', src: toRootPath(product.thumbnail) });
+      items.push({ type: 'image', src: toRootPath(resolveAssetPath(product, product.thumbnail)) });
     }
     return items;
   }
@@ -103,7 +117,7 @@
       if (multi) {
         thumbsEl.innerHTML = items.map((it, i) => {
           const isVideo = it.type === 'video';
-          const thumbSrc = isVideo ? (toRootPath(product.thumbnail) || it.src) : it.src;
+          const thumbSrc = isVideo ? (toRootPath(resolveAssetPath(product, product.thumbnail)) || it.src) : it.src;
           const badge = isVideo ? `<span class="thumb-play" aria-hidden="true">&#9654;</span>` : '';
           return `<button class="gallery-thumb ${i === index ? 'active' : ''}" data-index="${i}" aria-label="${isVideo ? 'Preview video' : `Photo ${i + 1}`}"><img src="${thumbSrc}" alt="">${badge}</button>`;
         }).join('');
@@ -127,7 +141,7 @@
       if (e.key === 'ArrowRight') step(1);
     });
 
-    resolveGallery(product.gallery).then((galleryImages) => {
+    resolveGallery(product).then((galleryImages) => {
       items = buildMediaItems(product, galleryImages);
       index = 0;
       if (items.length) renderItem();
