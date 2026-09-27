@@ -208,7 +208,7 @@ function buildProductPage(product) {
       <div class="gallery-thumbs" id="galleryThumbs" hidden></div>
     </div>
     <div class="product-info">
-      <p class="eyebrow">${escapeHtml(cats.join(' · '))}</p>
+      <p class="eyebrow">${cats.map(c => `<a href="/?category=${encodeURIComponent(c)}">${escapeHtml(c)}</a>`).join(' · ')}</p>
       <h1>${escapeHtml(product.title)}</h1>
       <p class="product-desc">${escapeHtml(product.description || product.blurb)}</p>
       <div class="tag-row">${(product.tags || []).map(t => `<span class="tag">${escapeHtml(t)}</span>`).join('')}</div>

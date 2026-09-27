@@ -155,18 +155,35 @@
     if (!filterBar || !grid) return;
 
     const cards = Array.from(grid.querySelectorAll('.card'));
+    const filterBtns = Array.from(filterBar.querySelectorAll('.filter-btn'));
 
-    filterBar.querySelectorAll('.filter-btn').forEach(btn => {
-      btn.addEventListener('click', () => {
-        filterBar.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
-        btn.classList.add('active');
-        const cat = btn.dataset.cat;
-        cards.forEach(card => {
-          const cardCats = (card.dataset.categories || '').split('|');
-          card.style.display = (cat === 'All' || cardCats.includes(cat)) ? '' : 'none';
-        });
+    function applyFilter(cat, updateUrl) {
+      filterBtns.forEach(b => b.classList.toggle('active', b.dataset.cat === cat));
+      cards.forEach(card => {
+        const cardCats = (card.dataset.categories || '').split('|');
+        card.style.display = (cat === 'All' || cardCats.includes(cat)) ? '' : 'none';
       });
+      if (updateUrl) {
+        const url = new URL(window.location.href);
+        if (cat === 'All') {
+          url.searchParams.delete('category');
+        } else {
+          url.searchParams.set('category', cat);
+        }
+        history.replaceState(null, '', url);
+      }
+    }
+
+    filterBtns.forEach(btn => {
+      btn.addEventListener('click', () => applyFilter(btn.dataset.cat, true));
     });
+
+    // Product pages link back here as /?category=X — apply that filter on load
+    // if it matches one of this page's actual filter buttons.
+    const requestedCat = new URLSearchParams(window.location.search).get('category');
+    if (requestedCat && filterBtns.some(b => b.dataset.cat === requestedCat)) {
+      applyFilter(requestedCat, false);
+    }
 
     const supportsHoverPreview =
       window.matchMedia('(hover: hover) and (pointer: fine)').matches &&
