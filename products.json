@@ -93,7 +93,7 @@
   {
     "id": "affirmation-cards",
     "title": "Twitch daily Affirmation Cards",
-    "category": ["Widgets", "Twitch", "Chat Assets"],
+    "category": ["Twitch", "Chat Assets"],
     "price": "20.00",
     "blurb": "Daily Affirmation Cards Twitch Widget: Animated Streamer Asset",
     "description": "🪷 Daily Affirmation Card: Twitch Widget! 🪷\n\n★ Chat Command: Viewers can type !mantra (or any custom keyword) to receive an inspiring daily affirmation ✨\n★ Channel Point Reward: Perfect as a channel point redemption to uplift your community’s mood 💖\n★ Affirmation Variety: A new positive message each day (50 variations!) 🌞\n★ Personalized Display: The viewer’s username appears with their affirmation for a warm, personal touch 🌷\n★ Multilingual Support: Choose from a selection of languages in the widget settings 🌍\n★ 6 Gradient Color Themes: Pick from six calming gradients to match your stream’s style 🎨\n★ Affirmation History: Viewers can type a chat command (like !myaffirmations) to see their past affirmations 📜\n★ Quick Setup Guide: Simple one-click StreamElements install — works with OBS, Streamlabs, and all browser-source streaming software ⚡\n",
@@ -102,5 +102,18 @@
     "gallery": { "count": 10 },
     "etsyUrl": "https://www.etsy.com/uk/listing/4393350841/",
     "tags": ["Twitch", "Chat Assets", "Widgets"]
+  },
+  {
+    "id": "panda-loot-box",
+    "title": "Twitch Pandas Blind Box",
+    "category": ["Blind Boxes", "Twitch", "Chat Assets"],
+    "price": "20.00",
+    "blurb": "Animated Panda Loot Box Twitch Widget: Streamer Channel Points Reward",
+    "description": "🐼 Panda Loot Box Twitch Widget! 🐼\n\n★ Chat Command: Viewers can type !panda (or any custom keyword) to reveal a surprise panda ✨\n★ Channel Point Redemption: Turn it into a channel points reward for extra viewer interaction 💎\n★ Personalized Shout-Outs: The viewer’s username appears on screen 🎉\n★ Customizable Look: Pick your own fonts and gradient colors to match your stream's aesthetic 🎨\n★ Collection & Leaderboard: Viewers can check which pandas they collected with a chat command and climb the leaderboard using chat commands 🏆\n★ Multilingual Friendly: Easily edit all on-screen text to any language 🌍\n★ Easy Setup Guide: Quick StreamElements install—compatible with OBS, Streamlabs, and any browser-based streaming software ⚡\n",
+    "thumbnail": "01.webp",
+    "videoUrl": "01.mp4",
+    "gallery": { "count": 10 },
+    "etsyUrl": "https://www.etsy.com/uk/listing/4497273327/",
+    "tags": ["Twitch", "Blind Box", "Pandas", "Widgets"]
   }
 ]
