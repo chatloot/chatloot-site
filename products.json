@@ -2,7 +2,7 @@
   {
     "id": "twitch-blind-box-halloween-puppies",
     "title": "Twitch Blind Box Halloween Puppies",
-    "category": ["Blind Boxes", "Twitch", "Halloween"],
+    "category": ["Blind Boxes", "Twitch", "Halloween", "Chat Assets"],
     "price": "20.00",
     "blurb": "Halloween Puppies Twitch Widget: Chat Command or Channel Points Reward",
     "description": "Halloween Puppy Loot Box 👻🐾\n\n★ Channel Points: Reward viewers with a loot box they can claim! It also works with subs/cheers/followers (you can select which you prefer)\n★ Chat Command: Alternatively, set up a chat command such as !halloween\n★ Custom Limits: You can set a cooldown of a certain amount of minutes for each way of claiming the loot box, and if you're using cheers you can set a minimum amount of bits\n★ Viewer Shoutouts: The viewer’s username appears in the animation to make it feel personalized\n★ Collection & Leaderboard: Viewers can keep track of the puppies they’ve collected so far or check the leaderboard! This works with customizable chat commands which trigger a message in the chat\n★ Rarities: Choose which puppies are common, rare or special\n★ Fully Personalized: Change the font, colors, puppy names, audio and other settings to perfectly match your stream's aesthetic\n★ Multilingual: All text can be edited, making the widget easy to customize for any language\n★ Easy Setup: Quick and simple installation through StreamElements. Works with OBS, Streamlabs, and any browser-source setup!\n",
@@ -15,7 +15,7 @@
   {
     "id": "twitch-blind-box-trick-or-treat",
     "title": "Twitch Blind Box Trick or Treat",
-    "category": ["Blind Boxes", "Twitch", "Halloween"],
+    "category": ["Blind Boxes", "Twitch", "Halloween", "Chat Assets"],
     "price": "20.00",
     "blurb": "Halloween Trick or Treat Twitch Widget: Chat Command or Channel Points Reward",
     "description": "🎃 Trick or Treat Twitch Widget! 👻\n\n★ Chat Command: Viewers can type !tot (or any word you choose) to unlock & collect tricks or treats 🍬\n★ Channel Points Ready: Perfect as a channel point reward to boost interaction 🧡\n★ Variety: Never the same trick or treat twice in a row ✔️\n★ Viewer Shoutouts: The viewer’s username pops up in the animation ✨\n★ Fully Customizable: Adjust font & colors to match your Halloween theme 🕷️\n★ Collect & Compete: Viewers can use chat commands to track which tricks & treats they’ve got, and check the leaderboard of most treats collected 🎃🏆\n★ Multilingual Support: All text can be edited into any language 🌐\n★ Easy Setup: Quick one-click install through StreamElements—compatible with OBS, Streamlabs, and any browser source ⚡\n",
@@ -67,7 +67,7 @@
   {
     "id": "boba-tea-widget",
     "title": "Twitch Boba Tea Collector",
-    "category": ["Blind Boxes", "Twitch"],
+    "category": ["Blind Boxes", "Twitch", "Chat Assets"],
     "price": "20.00",
     "blurb": "Cute Boba Tea Widget: Chat Command or Channel Points Reward",
     "description": "✨ Super Cute Boba Twitch Alert Widget! ✨\n\nFeatures:\n★ Cute chat command: type !boba (or your own word!) for an adorable surprise\n★ Use it as a channel point redemption or StreamElements shop reward too 💝\n★ Random boba animations that won’t repeat one after the other 🎉\n★ Your viewer’s username pops up to make them feel extra special 🌟\n★ Comes with a sound effect or you can choose no sound, or add your own 🎶\n★ Control viewer cooldown ⏳\n★ Works with OBS, Streamlabs, or any browser source-friendly streaming software 🖥️✨\n★ Instant digital download with an easy step-by-step setup guide included 🙌\n",
@@ -80,7 +80,7 @@
   {
     "id": "froggie-loot-box",
     "title": "Twitch Froggie Blind Box",
-    "category": ["Blind Boxes", "Twitch"],
+    "category": ["Blind Boxes", "Twitch", "Chat Assets"],
     "price": "20.00",
     "blurb": "Animated Froggie Loot Box Twitch Widget: Streamer Channel Points Reward",
     "description": "🐸 Froggie Loot Box Twitch Widget! 🐸\n\n★ Chat Command: Viewers can type !froggie (or any custom keyword) to reveal a surprise froggie friend 🌟\n★ Channel Point Redemption: Easily set it up as a channel points reward for extra engagement 💎\n★ Froggie Variety: Random every time, with no repeats back-to-back 🐸✨\n★ Personalized Shout-Outs: Viewer’s username is displayed for that fun, personal touch 🎉\n★ Customizable Look: Choose your own font and gradient colors to match your stream’s vibe 🎨\n★ Collection & Leaderboard: Viewers can track their frogs, reset collections, and compete on the leaderboard with simple chat commands 🏆\n★ All Languages Supported: Edit the display text to any language you like 🌍\n★ Quick Setup Guide: One-click StreamElements install—works with OBS, Streamlabs, and any browser-source streaming software ⚡\n",
@@ -89,5 +89,18 @@
     "gallery": { "count": 10 },
     "etsyUrl": "https://www.etsy.com/uk/listing/4363694835/",
     "tags": ["Twitch", "Frogs", "Blind Box", "Widgets"]
+  },
+  {
+    "id": "affirmation-cards",
+    "title": "Twitch daily Affirmation Cards",
+    "category": ["Widgets", "Twitch", "Chat Assets"],
+    "price": "20.00",
+    "blurb": "Daily Affirmation Cards Twitch Widget: Animated Streamer Asset",
+    "description": "🪷 Daily Affirmation Card: Twitch Widget! 🪷\n\n★ Chat Command: Viewers can type !mantra (or any custom keyword) to receive an inspiring daily affirmation ✨\n★ Channel Point Reward: Perfect as a channel point redemption to uplift your community’s mood 💖\n★ Affirmation Variety: A new positive message each day (50 variations!) 🌞\n★ Personalized Display: The viewer’s username appears with their affirmation for a warm, personal touch 🌷\n★ Multilingual Support: Choose from a selection of languages in the widget settings 🌍\n★ 6 Gradient Color Themes: Pick from six calming gradients to match your stream’s style 🎨\n★ Affirmation History: Viewers can type a chat command (like !myaffirmations) to see their past affirmations 📜\n★ Quick Setup Guide: Simple one-click StreamElements install — works with OBS, Streamlabs, and all browser-source streaming software ⚡\n",
+    "thumbnail": "01.webp",
+    "videoUrl": "01.mp4",
+    "gallery": { "count": 10 },
+    "etsyUrl": "https://www.etsy.com/uk/listing/4393350841/",
+    "tags": ["Twitch", "Chat Assets", "Widgets"]
   }
 ]
