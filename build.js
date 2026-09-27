@@ -43,6 +43,17 @@ function resolveAssetPath(product, value) {
   return `assets/${product.id}/${value}`;
 }
 
+// Appends UTM tracking to every Etsy link automatically, so it never
+// needs typing out per product and can't drift out of sync between
+// listings. Handles the (unlikely but possible) case where an etsyUrl
+// already has its own query string.
+const UTM_SUFFIX = 'utm_source=chatloot_site&utm_medium=referral&utm_campaign=catalog';
+function withUtm(url) {
+  if (!url) return url;
+  const separator = url.includes('?') ? '&' : '?';
+  return `${url}${separator}${UTM_SUFFIX}`;
+}
+
 function pageShell({ title, description, canonicalPath, ogImage, bodyHtml, extraHead = '' }) {
   const canonicalUrl = `${SITE_URL}${canonicalPath}`;
   return `<!DOCTYPE html>
@@ -173,7 +184,7 @@ function buildProductPage(product) {
     brand: { '@type': 'Brand', name: SITE_NAME },
     offers: {
       '@type': 'Offer',
-      url: product.etsyUrl,
+      url: withUtm(product.etsyUrl),
       priceCurrency: currency,
       price: amount,
       availability: 'https://schema.org/InStock',
@@ -201,7 +212,7 @@ function buildProductPage(product) {
       <h1>${escapeHtml(product.title)}</h1>
       <p class="product-desc">${escapeHtml(product.description || product.blurb)}</p>
       <div class="tag-row">${(product.tags || []).map(t => `<span class="tag">${escapeHtml(t)}</span>`).join('')}</div>
-      <a class="btn-etsy" href="${product.etsyUrl}" target="_blank" rel="noopener noreferrer">
+      <a class="btn-etsy" href="${withUtm(product.etsyUrl)}" target="_blank" rel="noopener noreferrer">
         <span>Get it on Etsy</span>
         <span class="btn-price">${escapeHtml(product.price)}</span>
       </a>
