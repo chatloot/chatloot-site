@@ -1,6 +1,6 @@
 [
   {
-    "id": "twitch-blind-box-halloween-puppies",
+    "id": "blind-box-halloween-puppies",
     "title": "Twitch Blind Box Halloween Puppies",
     "category": ["Blind Boxes", "Twitch", "Halloween", "Chat Assets"],
     "price": "20.00",
@@ -13,7 +13,7 @@
     "tags": ["Twitch", "Blind Box", "Halloween", "Animated"]
   },
   {
-    "id": "twitch-blind-box-trick-or-treat",
+    "id": "blind-box-trick-or-treat",
     "title": "Twitch Blind Box Trick or Treat",
     "category": ["Blind Boxes", "Twitch", "Halloween", "Chat Assets"],
     "price": "20.00",
@@ -39,7 +39,7 @@
     "tags": ["Twitch", "Overlays", "Halloween", "Animated"]
   },
   {
-    "id": "twitch-music-widget",
+    "id": "music-widget",
     "title": "Twitch Music Widget",
     "category": ["Widgets", "Twitch"],
     "price": "14.00",
@@ -52,7 +52,7 @@
     "tags": ["Twitch", "Music", "Widgets", "Spotify"]
   },
   {
-    "id": "twitch-welcomer-widget",
+    "id": "welcomer-widget",
     "title": "Twitch Welcomer Widget",
     "category": ["Widgets", "Twitch"],
     "price": "14.00",
@@ -127,6 +127,19 @@
     "videoUrl": "01.mp4",
     "gallery": { "count": 5 },
     "etsyUrl": "https://www.etsy.com/uk/listing/4406790698/",
+    "tags": ["Twitch", "Thanksgiving", "Chat Interaction", "Widgets"]
+  },
+  {
+    "id": "kawaii-xmas-penguins",
+    "title": "Twitch Xmas Penguins Bind Box",
+    "category": ["Twitch", "Blind Boxes", "Xmas"],
+    "price": "20.00",
+    "blurb": "Kawaii Christmas Loot Box Twitch Widget: Animated Streamer Asset",
+    "description": "🎅✨ Kawaii Christmas Loot Box Twitch Widget! 🐧🎁\n\nBring festive cheer to your stream with this adorable penguin collectible game! ❄️\n★ Chat Command: Let viewers type !penguin (or any word you prefer) to unwrap a surprise Christmas penguin from the loot box 🎄💫\n★ Perfect for Channel Points: Turn it into a cozy holiday reward and keep your community engaged all season long 🎀💎\n★ Personal Touch: The viewer’s name appears beneath their penguin 💌\n★ Make It Yours: Easily edit text box colours and font to match your Christmas overlay or branding 🎨🎅\n★ Collect & Compete: Viewers can grow their penguin collection and check who’s top of the leaderboard ⛄🏆\n★ Quick Setup: Import to StreamElements and add as a browser source in OBS or Streamlabs 💻🎁\n",
+    "thumbnail": "01.avif",
+    "videoUrl": "01.mp4",
+    "gallery": { "count": 10 },
+    "etsyUrl": "https://www.etsy.com/uk/listing/4403849952/",
     "tags": ["Twitch", "Thanksgiving", "Chat Interaction", "Widgets"]
   }
 ]
