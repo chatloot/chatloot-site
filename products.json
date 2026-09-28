@@ -154,5 +154,18 @@
     "gallery": { "count": 10 },
     "etsyUrl": "https://www.etsy.com/uk/listing/4403849952/",
     "tags": ["Twitch", "Blind Box", "Xmas", "Penguins", "Kawaii"]
+  },
+  {
+    "id": "halloween-bats",
+    "title": "Halloween Bats Animated Decoration",
+    "category": ["Twitch", "Blind Boxes", "Xmas"],
+    "price": "4.00",
+    "blurb": "Flying Bat Animated Halloween Decoration: Gothic Stream Decor for Twitch, Kick, Youtube",
+    "description": "Bat Stream Decoration 🦇\n\n★ Options: Includes animated and static versions\n★ Quick Set-Up: Load into OBS, Streamlabs or your preferred streaming software\n★ Compatibility: Works with Twitch, Kick and Youtube\n",
+    "thumbnail": "01.avif",
+    "videoUrl": "01.mp4",
+    "gallery": { "count": 10 },
+    "etsyUrl": "https://www.etsy.com/uk/listing/4403849952/",
+    "tags": ["Twitch", "Kick", "Youtube", "Halloween", "Animation"]
   }
 ]
