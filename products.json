@@ -232,5 +232,18 @@
     "gallery": { "count": 10 },
     "etsyUrl": "https://www.etsy.com/uk/listing/4412006679/",
     "tags": ["Twitch", "Overlays", "Christmas", "Snow"]
+  },
+  {
+    "id": "twitch-christmas-bundle",
+    "title": "Twitch Christmas Bundle",
+    "category": ["Twitch", "Blind Boxes", "Overlays", "Xmas", "Chat Assets"],
+    "price": "50.00",
+    "blurb": "Christmas Twitch Streamer Bundle: Festive Streaming Assets",
+    "description": "🎄✨ Ultimate Christmas Twitch Stream Bundle ✨🎄\n\nThis all-in-one holiday bundle includes everything you need to decorate, engage your viewers, and add magical Christmas vibes to your channel 🌟\nWhat’s Included:\n✨ Christmas Stream Overlay\n• Comes with 4 layout options\n🎁 Lootbox Widget\n• Christmas gnome lootbox\n• Great for channel points or chat commands\n✨ Christmas Fairy String Lights\n• Festive fairy lights\n• Place anywhere on your stream\n⭐ Christmas Sub Badges (23 styles)\n• High-quality PNGs\n• Cute, festive designs for all your subscriber tiers\n💬 Christmas Twitch Panels\n• Matching festive designs\n• Multiple colour options included\n🎅 Advent Calendar Widget\n• Interactive daily reveal for December\n• Perfect for viewer engagement\n💬 Christmas Chat Widget\n• Themed chat overlay\n• Matches the rest of the bundle\n☕ Mystery Drink Widget\n• Username + random festive drink reveal\n• Collectible system & commands available\n❄️ Snow Widget\n• Gentle animated snowfall overlay\n• Works on any scene\n⏰ Christmas Countdown Widget\n• Live countdown to Christmas Day\n",
+    "thumbnail": "01.webp",
+    "videoUrl": "01.mp4",
+    "gallery": { "count": 11 },
+    "etsyUrl": "https://www.etsy.com/uk/listing/4413492718/",
+    "tags": ["Twitch Bundle", "Blind Box", "Overlays", "Xmas"]
   }
 ]
