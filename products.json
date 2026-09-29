@@ -178,7 +178,20 @@
     "thumbnail": "01.webp",
     "videoUrl": "01.mp4",
     "gallery": { "count": 10 },
-    "etsyUrl": "https://www.etsy.com/uk/listing/4403849952/",
+    "etsyUrl": "https://www.etsy.com/uk/listing/4412106794/",
     "tags": ["Twitch", "Blind Box", "Xmas", "Hot Chocolate"]
+  },
+  {
+    "id": "xmas-kawaii-bundle",
+    "title": "Twitch Kawaii Xmas Bundle",
+    "category": ["Twitch", "Blind Boxes", "Overlays", "Xmas", "Chat Assets"],
+    "price": "50.00",
+    "blurb": "Kawaii Christmas Twitch Streamer Bundle: Festive Streaming Assets",
+    "description": "🎀✨ Kawaii Christmas Streamer Bundle ✨🎀\n\nMake your holiday streams extra cute, cozy, and magical! This all-in-one Christmas bundle wraps your entire setup in adorable holiday charm so your viewers feel like they’ve stepped into a sweet winter wonderland. ❄️💖\n🎁 What’s inside:\n✨ Kawaii Christmas Overlays (4 Layouts)\nChristmas overlays in multiple layouts so you can choose the perfect look for your stream.\n💬 Chat Widget\nA cute chat widget that keeps messages clear while adding festive charm.\n⏳ Countdown Widget\nChristmas countdown timer\n❄️ Snow Widget\nSoft falling pastel snow animation to give your stream magical cozy vibes.\n🎄 Fairy Lights\nCute pastel decorations hanging across your screen to add extra holiday sweetness.\n🎁 Penguin Lootbox\nLet viewers open a lootbox full of cute surprises.\n💗 Sub Badges\nFestive themed badges to brighten up your chat.\n🎀 Twitch Panels\nMatching Christmas panels for a perfectly cohesive look.\n🎅 Advent Calendar Widget\nReveal a surprise each day of December.\n❄️ Mystery Drink Widget\nViewers can redeem a festive hot chocolate.\nEasy plug-and-play browser-source widgets for OBS / Streamlabs!\n",
+    "thumbnail": "01.webp",
+    "videoUrl": "01.mp4",
+    "gallery": { "count": 11 },
+    "etsyUrl": "https://www.etsy.com/uk/listing/4403849952/",
+    "tags": ["Twitch Bundle", "Blind Box", "Overlays", "Xmas"]
   }
 ]
