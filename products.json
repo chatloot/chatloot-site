@@ -159,7 +159,7 @@
     "id": "kawaii-xmas-penguins",
     "title": "Twitch Xmas Penguins Blind Box",
     "category": ["Twitch", "Blind Boxes", "Xmas", "Chat Assets"],
-    "price": "20.00",
+    "price": "23.00",
     "blurb": "Kawaii Christmas Loot Box Twitch Widget: Animated Streamer Asset",
     "description": "🎅✨ Kawaii Christmas Loot Box Twitch Widget! 🐧🎁\n\nBring festive cheer to your stream with this adorable penguin collectible game! ❄️\n★ Chat Command: Let viewers type !penguin (or any word you prefer) to unwrap a surprise Christmas penguin from the loot box 🎄💫\n★ Perfect for Channel Points: Turn it into a cozy holiday reward and keep your community engaged all season long 🎀💎\n★ Personal Touch: The viewer’s name appears beneath their penguin 💌\n★ Make It Yours: Easily edit text box colours and font to match your Christmas overlay or branding 🎨🎅\n★ Collect & Compete: Viewers can grow their penguin collection and check who’s top of the leaderboard ⛄🏆\n★ Quick Setup: Import to StreamElements and add as a browser source in OBS or Streamlabs 💻🎁\n",
     "thumbnail": "01.avif",
@@ -193,5 +193,31 @@
     "gallery": { "count": 11 },
     "etsyUrl": "https://www.etsy.com/uk/listing/4413492718/",
     "tags": ["Twitch Bundle", "Blind Box", "Overlays", "Xmas"]
+  },
+  {
+    "id": "kawaii-advent-calendar",
+    "title": "Twitch Kawaii Advent Calendar",
+    "category": ["Twitch", "Xmas", "Chat Assets"],
+    "price": "12.00",
+    "blurb": "Kawaii Advent Calendar Twitch Widget: Animated Christmas Streamer Assets",
+    "description": "🎁✨ Kawaii Advent Calendar Twitch Widget ✨🎁\n\nMake your stream extra cozy and festive this holiday season! 💖 This advent calendar widget reveals a new surprise for your viewers every day! 🌟\n★ 24 days of kawaii christmas surprises — cute icons revealed daily! 🎄🍬\n★ Perfect for chat engagement ❄️🎀\n★ Works in OBS, Streamlabs, or any stream software that uses browser sources 🖥️✨\n★ Easy setup with included guide — get your festive calendar ready in minutes! 🙌\n",
+    "thumbnail": "01.webp",
+    "videoUrl": "",
+    "gallery": { "count": 11 },
+    "etsyUrl": "https://www.etsy.com/uk/listing/4412015892/",
+    "tags": ["Twitch", "Chat Assets", "Xmas", "Advent"]
+  },
+  {
+    "id": "xmas-gnomes-blind-box",
+    "title": "Twitch Christmas Gnomes Blind Box",
+    "category": ["Twitch", "Blind Boxes", "Xmas", "Chat Assets"],
+    "price": "23.00",
+    "blurb": "Christmas Gnome Loot Box Twitch Widget: Animated Streamer Asset",
+    "description": "🎄 Cozy Christmas Gnome Loot Box Twitch Widget! 🎁\n\nFill your stream with festive magic as viewers unwrap their own holiday gnome friends! ❄️💕\n⭐ Fun Chat Command: Let your community type !gnome (or any custom trigger word) to open a Christmas loot box and reveal a surprise gnome 🎁🌟\n⭐ Great for Channel Points: Turn it into a cozy seasonal reward to keep viewers interacting throughout the holidays ⛄💖\n⭐ Personalized Reveal: Each gnome appears with the viewer’s name displayed underneath 💌\n⭐ Match Your Aesthetic: Easily update font choice and text-box colors to fit your theme 🎨🎄\n⭐ Collect & Show Off: Viewers can grow their own gnome collection and see who’s climbing the leaderboard with a chat command 🎅🏆\n⭐ Simple Stream Setup: Import into StreamElements and drop it into OBS or Streamlabs as a browser source—quick and beginner-friendly 🎬✨\n",
+    "thumbnail": "01.avif",
+    "videoUrl": "01.mp4",
+    "gallery": { "count": 10 },
+    "etsyUrl": "https://www.etsy.com/uk/listing/4403849952/",
+    "tags": ["Twitch", "Blind Box", "Christmas", "Gnomes"]
   }
 ]
