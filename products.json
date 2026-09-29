@@ -52,6 +52,19 @@
     "tags": ["Twitch", "Blind Box", "Halloween"]
   },
   {
+    "id": "halloween-bats",
+    "title": "Halloween Bats Animated Decoration",
+    "category": ["Twitch", "Haloween", "Overlays"],
+    "price": "4.00",
+    "blurb": "Flying Bat Animated Halloween Decoration: Gothic Stream Decor for Twitch, Kick, Youtube",
+    "description": "Bat Stream Decoration 🦇\n\n★ Options: Includes animated and static versions\n★ Quick Set-Up: Load into OBS, Streamlabs or your preferred streaming software\n★ Compatibility: Works with Twitch, Kick and Youtube\n",
+    "thumbnail": "01.avif",
+    "videoUrl": "01.mp4",
+    "gallery": { "count": 10 },
+    "etsyUrl": "https://www.etsy.com/uk/listing/4584063299/",
+    "tags": ["Twitch", "Kick", "Youtube", "Halloween", "Animation"]
+  },
+  {
     "id": "music-widget",
     "title": "Twitch Music Widget",
     "category": ["Widgets", "Twitch"],
@@ -145,7 +158,7 @@
   {
     "id": "kawaii-xmas-penguins",
     "title": "Twitch Xmas Penguins Blind Box",
-    "category": ["Twitch", "Blind Boxes", "Xmas"],
+    "category": ["Twitch", "Blind Boxes", "Xmas", "Chat Assets"],
     "price": "20.00",
     "blurb": "Kawaii Christmas Loot Box Twitch Widget: Animated Streamer Asset",
     "description": "🎅✨ Kawaii Christmas Loot Box Twitch Widget! 🐧🎁\n\nBring festive cheer to your stream with this adorable penguin collectible game! ❄️\n★ Chat Command: Let viewers type !penguin (or any word you prefer) to unwrap a surprise Christmas penguin from the loot box 🎄💫\n★ Perfect for Channel Points: Turn it into a cozy holiday reward and keep your community engaged all season long 🎀💎\n★ Personal Touch: The viewer’s name appears beneath their penguin 💌\n★ Make It Yours: Easily edit text box colours and font to match your Christmas overlay or branding 🎨🎅\n★ Collect & Compete: Viewers can grow their penguin collection and check who’s top of the leaderboard ⛄🏆\n★ Quick Setup: Import to StreamElements and add as a browser source in OBS or Streamlabs 💻🎁\n",
@@ -156,16 +169,16 @@
     "tags": ["Twitch", "Blind Box", "Xmas", "Penguins", "Kawaii"]
   },
   {
-    "id": "halloween-bats",
-    "title": "Halloween Bats Animated Decoration",
-    "category": ["Twitch", "Haloween", "Overlays"],
-    "price": "4.00",
-    "blurb": "Flying Bat Animated Halloween Decoration: Gothic Stream Decor for Twitch, Kick, Youtube",
-    "description": "Bat Stream Decoration 🦇\n\n★ Options: Includes animated and static versions\n★ Quick Set-Up: Load into OBS, Streamlabs or your preferred streaming software\n★ Compatibility: Works with Twitch, Kick and Youtube\n",
-    "thumbnail": "01.avif",
+    "id": "xmas-hot-chocolate",
+    "title": "Twitch Xmas Hot Chocolate",
+    "category": ["Twitch", "Blind Boxes", "Xmas", "Chat Assets"],
+    "price": "23.00",
+    "blurb": "Christmas Hot Chocolate Twitch Widget: Animated Streamer Asset",
+    "description": "☕🎄 Christmas Hot Chocolate Twitch Widget 🎄☕\n\nBring cozy holiday magic to your stream! 💖 Viewers can redeem this widget via channel points or chat commands to receive a festive hot chocolate animation — complete with their username and a mystery hot chocolate surprise! 🍫✨\n★ Interactive chat command (like !hotchoc) or channel point redemption 🎀\n★ 3D hot chocolate animation with a festive Christmas theme ☕❄️\n★ Mystery hot chocolate reveal — surprise your viewers every time! 🎁\n★ Username pops up so each viewer feels extra special 🌟\n★ Collection tracking — viewers can see which hot chocolates they’ve collected with !myhotchoc 📝\n★ Leaderboard — show the top collectors in chat with !chocleaders 🏆\n★ Works with OBS, Streamlabs, or any browser-source-friendly streaming software 🖥️✨\n★ Easy setup guide included — ready to stream in minutes 🙌\n",
+    "thumbnail": "01.webp",
     "videoUrl": "01.mp4",
     "gallery": { "count": 10 },
-    "etsyUrl": "https://www.etsy.com/uk/listing/4584063299/",
-    "tags": ["Twitch", "Kick", "Youtube", "Halloween", "Animation"]
+    "etsyUrl": "https://www.etsy.com/uk/listing/4403849952/",
+    "tags": ["Twitch", "Blind Box", "Xmas", "Hot Chocolate"]
   }
 ]
