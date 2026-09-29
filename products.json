@@ -258,5 +258,31 @@
     "gallery": { "count": 5 },
     "etsyUrl": "https://www.etsy.com/uk/listing/4406960956/",
     "tags": ["Twitch", "Overlays", "Christmas"]
+  },
+  {
+    "id": "mood-ring-widget",
+    "title": "Twitch Mood Ring Widget",
+    "category": ["Twitch", "Chat Assets"],
+    "price": "23.00",
+    "blurb": "Animated Mood Ring Twitch Widget: Streamer Channel Points Reward",
+    "description": "🔮 Mood Ring Twitch Widget 🔮\n\n★ Chat Command: Viewers can type !moodring (or any custom keyword) to reveal their mood ✨\n★ Channel Point Redemption: Perfect for channel point rewards and viewer interaction 💎\n★ Personalized Reveal: Displays the viewer’s username for a more interactive experience 🎉\n★ Fully Customizable: Change the font and the colors of the text box, moods & ring box to match your stream aesthetic 🎨\n★ Collection & Leaderboard: Viewers can check what they've got so far and compete on the leaderboard for most collected 🏆\n★ Multi-Language Friendly: Edit all text to work in any language 🌍\n★ Easy Setup Guide: Quick one-click StreamElements setup—compatible with OBS, Streamlabs, and browser-source software ⚡\n",
+    "thumbnail": "01.webp",
+    "videoUrl": "01.mp4",
+    "gallery": { "count": 10 },
+    "etsyUrl": "https://www.etsy.com/uk/listing/4504444716/",
+    "tags": ["Twitch", "Chat Assets", "Fortune"]
+  },
+  {
+    "id": "kawaii-xmas-lights",
+    "title": "Twitch Kawaii Xmas Fairy Lights",
+    "category": ["Twitch", "Overlays", "Xmas", "Chat Assets"],
+    "price": "7.00",
+    "blurb": "Kawaii Christmas Fairy String Decoration: Twitch Streamer Assets",
+    "description": "🎄✨ Kawaii Christmas Fairy Lights ✨🎄\n\nBring holiday cheer to your stream with these Christmas fairy-light style decorations! 💖 Available in small, medium, and large so you can decorate any scene! 🌟\n★ Kawaii Christmas decorations hanging on a cute fairy-light-style string 🎀\n★ Comes in three sizes — small, medium, large\n★ Works with OBS, Streamlabs, and any stream software that supports browser sources 🖥️✨\n★ Adds a fun, cute holiday vibe to your stream instantly 🎁\n★ Simple drag-and-drop setup — decorate in seconds! 🙌\n",
+    "thumbnail": "01.webp",
+    "videoUrl": "01.mp4",
+    "gallery": { "count": 10 },
+    "etsyUrl": "https://www.etsy.com/uk/listing/4412053406/",
+    "tags": ["Twitch", "Overlays", "Xmas", "Kawaii"]
   }
 ]
