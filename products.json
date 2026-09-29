@@ -214,10 +214,23 @@
     "price": "23.00",
     "blurb": "Christmas Gnome Loot Box Twitch Widget: Animated Streamer Asset",
     "description": "🎄 Cozy Christmas Gnome Loot Box Twitch Widget! 🎁\n\nFill your stream with festive magic as viewers unwrap their own holiday gnome friends! ❄️💕\n⭐ Fun Chat Command: Let your community type !gnome (or any custom trigger word) to open a Christmas loot box and reveal a surprise gnome 🎁🌟\n⭐ Great for Channel Points: Turn it into a cozy seasonal reward to keep viewers interacting throughout the holidays ⛄💖\n⭐ Personalized Reveal: Each gnome appears with the viewer’s name displayed underneath 💌\n⭐ Match Your Aesthetic: Easily update font choice and text-box colors to fit your theme 🎨🎄\n⭐ Collect & Show Off: Viewers can grow their own gnome collection and see who’s climbing the leaderboard with a chat command 🎅🏆\n⭐ Simple Stream Setup: Import into StreamElements and drop it into OBS or Streamlabs as a browser source—quick and beginner-friendly 🎬✨\n",
-    "thumbnail": "01.avif",
+    "thumbnail": "01.webp",
     "videoUrl": "01.mp4",
     "gallery": { "count": 10 },
     "etsyUrl": "https://www.etsy.com/uk/listing/4406968123/",
     "tags": ["Twitch", "Blind Box", "Christmas", "Gnomes"]
+  },
+  {
+    "id": "xmas-falling-snow",
+    "title": "Twitch Falling Snow Overlay",
+    "category": ["Twitch", "Overlays", "Xmas", "Chat Assets"],
+    "price": "12.00",
+    "blurb": "Falling Snow Twitch Widget: Animated Streamer Asset",
+    "description": "❄️✨ Falling Snow Twitch Widget ✨❄️\n\nBring cozy winter magic to your stream with this adorable, customizable falling snow widget! 💖 Perfect for making your stream feel extra festive or just adding a relaxing, wintery touch for your viewers. 🌨️\n★ Fully customizable snow ❄️ — edit size, density, speed, drift, opacity & color to match your style!\n★ Works in OBS, Streamlabs, or any stream software that uses browser sources 🖥️✨\n★ Easy-to-use setup guide included — get your snowy stream ready in minutes! 🙌\n",
+    "thumbnail": "01.webp",
+    "videoUrl": "01.mp4",
+    "gallery": { "count": 10 },
+    "etsyUrl": "https://www.etsy.com/uk/listing/4412006679/",
+    "tags": ["Twitch", "Overlays", "Christmas", "Snow"]
   }
 ]
