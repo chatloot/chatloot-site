@@ -245,5 +245,18 @@
     "gallery": { "count": 11 },
     "etsyUrl": "https://www.etsy.com/uk/listing/4413496937/",
     "tags": ["Twitch Bundle", "Blind Box", "Overlays", "Xmas"]
+  },
+  {
+    "id": "christmas-countdown",
+    "title": "Twitch Christmas Countdown",
+    "category": ["Twitch", "Overlays", "Xmas", "Chat Assets"],
+    "price": "12.00",
+    "blurb": "Christmas Countdown Twitch Widget: Animated Streamer Asset",
+    "description": "🎅 Christmas Countdown Twitch Widget! ⏳\n\nBring holiday excitement straight to your stream with an adorable countdown to Christmas! ❄️💕\n⭐ Festive Countdown: A timer counts down the days, hours, minutes, and seconds until December 25th (or you can customize the format) 🎁🎄\n⭐ Chat-Friendly: Perfect for getting your community hyped for the holidays—viewers will love checking how close Christmas is getting! ⛄💖\n⭐ Customizable Look: Easily change the background color to match your winter overlay, aesthetic, or branding 🎨✨\n⭐ Simple Setup: Import into StreamElements and add it to OBS or Streamlabs as a browser source in just a few clicks 🎬🎁\n",
+    "thumbnail": "01.webp",
+    "videoUrl": "01.mp4",
+    "gallery": { "count": 5 },
+    "etsyUrl": "https://www.etsy.com/uk/listing/4406960956/",
+    "tags": ["Twitch", "Overlays", "Christmas"]
   }
 ]
