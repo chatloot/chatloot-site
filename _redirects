@@ -1,0 +1,9 @@
+# Netlify redirects — one line per rule: FROM  TO  STATUS
+# 301 = permanent redirect (passes SEO signal to the new URL, tells
+# Google and browsers the move is permanent, not just temporary)
+
+# Old product slug renamed Sep 2026: "twitch-blind-box-halloween-puppies"
+# -> "blind-box-halloween-puppies". Covering both with and without
+# ".html" in case either was the one Google indexed/cached.
+/products/twitch-blind-box-halloween-puppies          /products/blind-box-halloween-puppies.html  301
+/products/twitch-blind-box-halloween-puppies.html     /products/blind-box-halloween-puppies.html  301

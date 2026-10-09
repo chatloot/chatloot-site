@@ -250,6 +250,28 @@ function buildRobots() {
   return `User-agent: *\nAllow: /\nSitemap: ${SITE_URL}/sitemap.xml\n`;
 }
 
+function buildNotFoundPage() {
+  const bodyHtml = `
+<main class="wrap">
+  <section class="hero">
+    <div class="hero-inner">
+      <p class="eyebrow">404</p>
+      <h1>Page not found</h1>
+      <p class="hero-sub">That page doesn't exist — it may have moved or been removed. Head back to the catalog to find what you're after.</p>
+      <p style="margin-top:28px;"><a class="btn-etsy" style="display:inline-flex; max-width:260px;" href="/"><span>Back to homepage</span></a></p>
+    </div>
+  </section>
+</main>
+`;
+
+  return pageShell({
+    title: `Page not found — ${SITE_NAME}`,
+    description: 'This page could not be found.',
+    canonicalPath: '/404.html',
+    bodyHtml,
+  });
+}
+
 // ---------- Run ----------
 
 fs.rmSync(DIST, { recursive: true, force: true });
@@ -265,12 +287,22 @@ products.forEach(product => {
 });
 fs.writeFileSync(path.join(DIST, 'sitemap.xml'), buildSitemap());
 fs.writeFileSync(path.join(DIST, 'robots.txt'), buildRobots());
+fs.writeFileSync(path.join(DIST, '404.html'), buildNotFoundPage());
 
 fs.copyFileSync(path.join(ROOT, 'styles.css'), path.join(DIST, 'styles.css'));
 fs.copyFileSync(path.join(ROOT, 'client.js'), path.join(DIST, 'client.js'));
 fs.copyFileSync(path.join(ROOT, 'favicon-32.png'), path.join(DIST, 'favicon-32.png'));
 fs.copyFileSync(path.join(ROOT, 'favicon-512.png'), path.join(DIST, 'favicon-512.png'));
 fs.copyFileSync(path.join(ROOT, 'apple-touch-icon.png'), path.join(DIST, 'apple-touch-icon.png'));
+
+// Netlify redirect rules — "_redirects" lives in the project root
+// (not dist/, since dist/ gets wiped on every build) and is copied
+// across here. Add new old-URL -> new-URL 301 lines to that file
+// whenever a product slug changes.
+const redirectsSrc = path.join(ROOT, '_redirects');
+if (fs.existsSync(redirectsSrc)) {
+  fs.copyFileSync(redirectsSrc, path.join(DIST, '_redirects'));
+}
 
 // Copy the assets folder if it exists (product images/videos)
 const assetsSrc = path.join(ROOT, 'assets');
