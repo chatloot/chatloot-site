@@ -293,9 +293,35 @@
     "blurb": "Christmas Fairy String Decoration: Twitch Streamer Assets",
     "description": "🎄✨ Christmas Fairy Lights ✨🎄\n\nAdd a festive touch to your stream with these cozy Christmas hanging decorations! Perfect for giving your layout a warm holiday feel. This decoration comes in small, medium, and large sizes so you can choose the perfect fit for your overlay.\n★ Festive Christmas decorations hanging on a string 🎁\n★ Available in three sizes — small, medium, large\n★ Works in OBS, Streamlabs, and all browser-source-friendly streaming software\n★ Simple setup — just drag into your scene and decorate instantly ✨\n",
     "thumbnail": "01.webp",
-    "videoUrl": "01.mp4",
+    "videoUrl": "",
     "gallery": { "count": 10 },
     "etsyUrl": "https://www.etsy.com/uk/listing/4412051928/",
     "tags": ["Twitch", "Overlays", "Xmas", "Lights"]
+  },
+  {
+    "id": "xmas-advent-calendar",
+    "title": "Twitch Xmas Advent Calendar",
+    "category": ["Twitch", "Xmas", "Chat Assets"],
+    "price": "12.00",
+    "blurb": "Xmas Advent Calendar Twitch Widget: Animated Christmas Streamer Assets",
+    "description": "🎁✨ Advent Calendar Twitch Widget ✨🎁\n\nBring festive excitement to your stream this holiday season! 💖 This adorable Advent Calendar widget reveals a surprise for your viewers every day — perfect for keeping your community engaged and cozy all December long! 🌟\n★ 24 days of surprises — reveal a new christmas icon each day! 🎄\n★ Great for chat engagement 💖\n★ Works in OBS, Streamlabs, or any stream software that uses browser sources 🖥️✨\n★ Easy setup with included guide — get your festive calendar ready in minutes! 🙌\n",
+    "thumbnail": "01.webp",
+    "videoUrl": "01.mp4",
+    "gallery": { "count": 11 },
+    "etsyUrl": "https://www.etsy.com/uk/listing/4412009142/",
+    "tags": ["Twitch", "Chat Assets", "Xmas", "Advent"]
+  },
+  {
+    "id": "kawaii-xmas-badges",
+    "title": "Twitch Kawaii Xmas Subs Badges",
+    "category": ["Twitch", "Xmas", "Chat Assets"],
+    "price": "10.00",
+    "blurb": "Kawaii Christmas Sub Badges: Assets for Twitch Streamers",
+    "description": "🎄✨ Kawaii Christmas Sub Badges ✨🎄\n\nMake your stream super cozy and cute this holiday season! 💖 These hand-drawn sub badges are packed with festive kawaii charm! 🌟\n★ 23 super cute Christmas-themed badges (watermark removed) 🎅❄️\n★ Perfect for Twitch subscriber tiers — mix and match for each level 🥰\n★ Bright, cheerful PNGs with transparent backgrounds — ready to sparkle on your stream! ✨\n",
+    "thumbnail": "01.webp",
+    "videoUrl": "01.mp4",
+    "gallery": { "count": 11 },
+    "etsyUrl": "https://www.etsy.com/uk/listing/4411963263/",
+    "tags": ["Twitch", "Chat Assets", "Xmas", "Badges"]
   }
 ]
