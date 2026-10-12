@@ -284,5 +284,18 @@
     "gallery": { "count": 10 },
     "etsyUrl": "https://www.etsy.com/uk/listing/4412053406/",
     "tags": ["Twitch", "Overlays", "Xmas", "Kawaii"]
+  },
+  {
+    "id": "xmas-lights",
+    "title": "Twitch Xmas Fairy Lights",
+    "category": ["Twitch", "Overlays", "Xmas", "Chat Assets"],
+    "price": "7.00",
+    "blurb": "Christmas Fairy String Decoration: Twitch Streamer Assets",
+    "description": "🎄✨ Christmas Fairy Lights ✨🎄\n\nAdd a festive touch to your stream with these cozy Christmas hanging decorations! Perfect for giving your layout a warm holiday feel. This decoration comes in small, medium, and large sizes so you can choose the perfect fit for your overlay.\n★ Festive Christmas decorations hanging on a string 🎁\n★ Available in three sizes — small, medium, large\n★ Works in OBS, Streamlabs, and all browser-source-friendly streaming software\n★ Simple setup — just drag into your scene and decorate instantly ✨\n",
+    "thumbnail": "01.webp",
+    "videoUrl": "01.mp4",
+    "gallery": { "count": 10 },
+    "etsyUrl": "https://www.etsy.com/uk/listing/4412051928/",
+    "tags": ["Twitch", "Overlays", "Xmas", "Lights"]
   }
 ]
