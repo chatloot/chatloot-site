@@ -318,10 +318,49 @@
     "price": "10.00",
     "blurb": "Kawaii Christmas Sub Badges: Assets for Twitch Streamers",
     "description": "🎄✨ Kawaii Christmas Sub Badges ✨🎄\n\nMake your stream super cozy and cute this holiday season! 💖 These hand-drawn sub badges are packed with festive kawaii charm! 🌟\n★ 23 super cute Christmas-themed badges (watermark removed) 🎅❄️\n★ Perfect for Twitch subscriber tiers — mix and match for each level 🥰\n★ Bright, cheerful PNGs with transparent backgrounds — ready to sparkle on your stream! ✨\n",
-    "thumbnail": "01.webp",
-    "videoUrl": "01.mp4",
+    "thumbnail": "01.avif",
+    "videoUrl": "",
     "gallery": { "count": 11 },
     "etsyUrl": "https://www.etsy.com/uk/listing/4411963263/",
+    "tags": ["Twitch", "Chat Assets", "Xmas", "Badges"]
+  },
+  {
+    "id": "xmas-badges",
+    "title": "Twitch Xmas Subs Badges",
+    "category": ["Twitch", "Xmas", "Chat Assets"],
+    "price": "10.00",
+    "blurb": "Christmas Sub Badges: Assets for Twitch Streamers",
+    "description": "🎄✨ Christmas Sub Badges ✨🎄\n\nSpread holiday cheer with these adorable, hand-drawn sub badges! 💖\n★ 23 unique Christmas-themed badges (watermark removed)\n★ Perfect for Twitch subscriber tiers — easily assign different designs 🌟\n★ Vibrant, high-quality PNGs with transparent backgrounds 🎨\n",
+    "thumbnail": "01.webp",
+    "videoUrl": "",
+    "gallery": { "count": 11 },
+    "etsyUrl": "https://www.etsy.com/uk/listing/4411961421/",
+    "tags": ["Twitch", "Chat Assets", "Xmas", "Badges"]
+  },
+  {
+    "id": "kawaii-xmas-panels",
+    "title": "Twitch Kawaii Xmas Panel Headers",
+    "category": ["Twitch", "Xmas", "Chat Assets"],
+    "price": "10.00",
+    "blurb": "Kawaii Christmas Twitch Panels: Festive Streamer Assets",
+    "description": "🎄✨ Kawaii Christmas Twitch Panels ✨🎄\n\nMake your Twitch channel extra cozy and adorable this holiday season! 💖\n★ Cute and festive Christmas design — perfect for holiday streams 🎁\n★ Multiple colour options — pink, blue and purple to match your stream’s aesthetic 🌟\n★ Simple setup — just upload the panels to your Twitch channel to decorate instantly 🙌\n",
+    "thumbnail": "01.avif",
+    "videoUrl": "",
+    "gallery": { "count": 11 },
+    "etsyUrl": "https://www.etsy.com/uk/listing/4412119953/",
+    "tags": ["Twitch", "Chat Assets", "Xmas", "Badges"]
+  },
+  {
+    "id": "xmas-panels",
+    "title": "Twitch Xmas Panel Headers",
+    "category": ["Twitch", "Xmas", "Chat Assets"],
+    "price": "10.00",
+    "blurb": "Christmas Twitch Panels: Festive Streamer Assets",
+    "description": "🎄✨ Christmas Twitch Panels ✨🎄\n\nDecorate your Twitch channel with festive holiday vibes! These Christmas panels are designed to bring cozy, cheerful spirit to your channel — fully customizable and easy to use.\nFeatures:\n★ Multiple colour options so you can match your stream theme or personal style 🎨\n★ High-quality PNGs — easy to upload and place in Twitch panel settings 🖼️\n★ Festive Christmas design — perfect for holiday streams 🎁\n★ Simple setup — just upload the panels to your Twitch channel 🙌\n",
+    "thumbnail": "01.jpg",
+    "videoUrl": "",
+    "gallery": { "count": 11 },
+    "etsyUrl": "https://www.etsy.com/uk/listing/4412098415/",
     "tags": ["Twitch", "Chat Assets", "Xmas", "Badges"]
   }
 ]
